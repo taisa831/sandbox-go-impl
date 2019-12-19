@@ -1,5 +1,5 @@
 package car
 
-type toyota struct {
+type Toyota struct {
 	common
 }

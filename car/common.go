@@ -4,10 +4,10 @@ type common struct {
 	handle string
 }
 
-type car interface {
-	run() string
+type Car interface {
+	Run() string
 }
 
-func (c *common) run() string {
+func (c *common) Run() string {
 	return "run..."
 }
